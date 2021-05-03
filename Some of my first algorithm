@@ -23,7 +23,7 @@ main(){
 	scanf("%f%f",&n1,&n2);
 	med = (n1+n2)/2, soma = n1+n2, prod = n1*n2, porc = (n1*0.10)+n1;
 	if (opf<2){
-		printf("A média dos dois números é: %.2\n",med);
+		printf("A média dos dois números é: %.2f\n",med);
 	}else if (opf<3){
 		printf("A soma dos dois números é: %.2f\n",soma);
 	}else if (opf<4){
