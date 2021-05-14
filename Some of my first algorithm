@@ -12,16 +12,12 @@ main(){
 	scanf("%f",&opf);
 	if (opf<1){
 		printf("Opção inválida.\n");
-		system ("pause");
-		return 0;
 	}else if (opf>4){
 		printf("Opção inválida.\n");
-		system ("pause");
-		return 0;
-	}
+	}else{
 	printf("Digite dois números que deseja calcular:\n");
 	scanf("%f%f",&n1,&n2);
-	med = (n1+n2)/2; soma = n1+n2; prod = n1*n2; porc = (n1*0.10)+n1;
+	med = (n1+n2)/2, soma = n1+n2, prod = n1*n2, porc = (n1*0.10)+n1;
 	if (opf<2){
 		printf("A média dos dois números é: %.2f\n",med);
 	}else if (opf<3){
@@ -31,8 +27,7 @@ main(){
 	}else if (opf<5){
 		printf("Número com 10 porcento de aumento: %.2f\n",porc);
 	}
-	system ("pause");
-    return 0;
+ }
 }
 
 
